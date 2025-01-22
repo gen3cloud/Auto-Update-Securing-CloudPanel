@@ -1,6 +1,6 @@
 # 🚀 Atualização Automática do CloudPanel
 
-A capacidade de atualizar automaticamente o **CloudPanel** se tornou essencial diante das crescentes preocupações de segurança. Recentes ataques exploraram vulnerabilidades zero-day em versões anteriores à **V2.3.1**, comprometendo servidores e formando botnets maliciosas. Apesar de um patch crítico lançado, muitos usuários negligenciaram a atualização, resultando em diversas vítimas de ataques.
+A capacidade de atualizar automaticamente o **CloudPanel** se tornou essencial diante das crescentes preocupações de segurança. Recentes ataques exploraram vulnerabilidades zero-day em versões anteriores, comprometendo servidores e formando botnets maliciosas. Apesar de um patch crítico lançado, muitos usuários negligenciaram a atualização, resultando em diversas vítimas de ataques.
 
 Este repositório oferece um **script shell** e instruções detalhadas para automatizar o processo de atualização do **CloudPanel**, garantindo que seu servidor permaneça seguro e atualizado.
 
