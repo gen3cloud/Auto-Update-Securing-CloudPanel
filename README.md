@@ -28,3 +28,23 @@ Este script automatiza o processo de atualização diária do CloudPanel. Para u
 
 ```bash
 chmod +x update.sh
+
+## 🔄 **Configuração do Cron Job**
+
+Siga os passos abaixo para agendar o script para execução diária às **3:00 AM**:
+
+1. Abra o crontab:
+    ```bash
+    crontab -e
+    ```
+
+2. Adicione a linha para o cron job:
+    ```bash
+    0 3 * * * /bin/bash /root/update.sh
+    ```
+
+3. Salve e saia para ativar o cron job.
+
+> 🔧 **Nota**: Ajuste o caminho `/root/update.sh` se o script estiver localizado em outro diretório.
+
+
